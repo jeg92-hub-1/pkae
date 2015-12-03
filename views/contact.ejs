@@ -1,39 +1,117 @@
 <div class="panel panel-default">
-	<div class="panel-heading">Formulario de contacto</div>
-		<div class="panel-body">
-			<div>
+	<div class="panel-heading" style="text-align:left">
+		<input type="button" id="rs" value="> Redes Sociales"/>
+		<input type="button" id="fdc" value="> Formulario de contacto"/>
+	</div>
+	<div id="aukera1">
+		<div class="panel-heading">Formulario de contacto</div>
+			<div class="panel-body">
 				<form method='post' action='contact'>
 					<div class="container">
 						<div class="row">
-							<div class="col-xs-12 col-sm-4">
+						<div class="col-xs-12 col-sm-4">
+						</div>
+						<div class="col-xs-12 col-sm-4">
+							<div class="form-group">
+								<input autofocus required class="form-control" type="text" name="name" placeholder="Nombre" id="name" pattern="(^[a-zA-Z ñÑáéíóúÁÉÍÓÚ]{1,20}$)"/>
 							</div>
-							<div class="col-xs-12 col-sm-4">
-								<div class="form-group">
-									<input autofocus required class="form-control" type="text" name="name" placeholder="Nombre" id="name" pattern="(^[a-zA-Z ñÑáéíóúÁÉÍÓÚ]{1,20}$)"/>
-								</div>
-								<hr>
-								<div class="form-group">
-									<input class="form-control" required type="text" name="lastname" id="lastname" placeholder="Apellido" pattern="(^[a-zA-Z ñÑáéíóúÁÉÍÓÚ]{1,20}$)"/>
-								</div>
-								<hr>
-								<div class="form-group">
-									<input class="form-control" required type="text" pattern="(^([a-zA-Z])+(\d{3})+\@ikasle.ehu.eus$)" placeholder="correo002@ikasle.ehu.eus" name="email" id="email"/>
-								</div>
-								<hr>
-								<div class="form-group">
-									<textarea class="form-control vertical_move" placeholder="Campo para escribir"  name="text" id="text"> </textarea>
-								</div>
-								<div class="g-recaptcha row" data-sitekey="6LdWbAkTAAAAAG2mUTDawR1Cjf6D_K9sWG_C_2xv" name="g-recaptcha" id="recaptcha"></div>
-								<div class="row">
-									<input class="btn btn-default" type="submit"  value="Enviar" />
-								</div>
+							<hr>
+							<div class="form-group">
+								<input class="form-control" required type="text" name="lastname" id="lastname" placeholder="Apellido" pattern="(^[a-zA-Z ñÑáéíóúÁÉÍÓÚ]{1,20}$)"/>
 							</div>
-							<div class="col-xs-12 col-sm-4">
+							<hr>
+							<div class="form-group">
+								<input class="form-control" required type="text" pattern="(^([a-zA-Z])+(\d{3})+\@ikasle.ehu.eus$)" placeholder="correo002@ikasle.ehu.eus" name="email" id="email"/>
 							</div>
+							<hr>
+							<div class="form-group">
+								<textarea class="form-control vertical_move" placeholder="Campo para escribir"  name="text" id="text"> </textarea>
+							</div>
+							<div class="g-recaptcha row" data-sitekey="6LdWbAkTAAAAAG2mUTDawR1Cjf6D_K9sWG_C_2xv" name="g-recaptcha" id="recaptcha"></div>
+							<div class="row">
+								<input class="btn btn-default" type="submit"  value="Enviar" />
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-4">
 						</div>
 					</div>
 				</form>
 			</div>
 		</div>
 	</div>
+	<div id="aukera2">
+			<div class="panel-footer center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="row">
+								<h2>Redes Sociales</h2>
+							</div>
+							<div class="row social centered">
+								<div class="col-md-4">
+									<div class="facebook">
+										<a target = "_blank" href="https://www.facebook.com/MagnaSIS" class="icon48 icon48-1">Facebook</a>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="linkedin">
+										<a target = "_blank" href="https://www.linkedin.com/company/2687083?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A1-2-2%2CtarId%3A1435046170463%2Ctas%3Amagna%20sis" class="icon48 icon48-4">LinkedIn</a>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="twitter">
+										<a target = "_blank" href="https://twitter.com/magnasis" class="icon48 icon48-2">Twitter</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<h3>Dirección</h3>
+							</div>
+							<div class="row">
+								<p>
+								Paseo Manuel Lardizabal 1<br>
+								20018 San Sebastián (Gipuzkoa)<br>
+								</p>
+								<p>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.414134795564!2d-2.0094019828033574!3d43.30558936630068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x6b04b77ccb51f778!2sFacultad+de+Inform%C3%A1tica!5e0!3m2!1ses!2ses!4v1436171620512" width="240" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</p>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<h3>Email</h3>
+							</div>
+							<div class="row">
+								<a href="mailto:magnasis@magnasis.com">magnasis@magnasis.com</a>
+							</div>
+							<div class="row">
+								<h3>Teléfono</h3>
+							</div>
+							<div class="row">
+								<p>(+34) 943015022</p>
+								<p>(+34) 688962462</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
 </div>
+
+<script>
+$(document).ready(function(){
+$("#aukera2").hide();
+	$("#rs").click(function(){
+		$("#aukera2").show();
+		$("#aukera1").hide();
+
+	});
+	$("#fdc").click(function(){
+		$("#aukera1").show();
+		$("#aukera2").hide();
+	});
+});
+</script>

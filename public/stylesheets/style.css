@@ -133,10 +133,18 @@ div.social div.googleplus:hover {
     background: lightgrey;
 }
 @media (max-width: 767px) {
+	/*logoa txikitzeko*/
 	.footer-logo {
 		width: 80px;
 	}
+	/*Gestion de usuario testua*/
 	.panel-body{
 		text-align:left;
 	}
+}
+/*rs = Red Social button , fdc = Formulario de Contacto*/
+#rs,#fdc{
+	border:0;
+	outline:0 none;
+	margin-bottom:1%;
 }
