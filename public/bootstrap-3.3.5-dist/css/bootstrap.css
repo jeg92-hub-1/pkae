@@ -4370,6 +4370,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  text-align: center;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4410,6 +4411,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+  .navbar-nav > li:first-child > a{
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 .navbar-form {
@@ -6624,6 +6629,9 @@ button.close {
   td.visible-xs {
     display: table-cell !important;
   }
+    .footer-logo {
+    width: 100px;
+	}
 }
 @media (max-width: 767px) {
   .visible-xs-block {
@@ -6659,6 +6667,7 @@ button.close {
   .visible-sm-block {
     display: block !important;
   }
+  
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline {
@@ -6734,6 +6743,7 @@ button.close {
   .hidden-xs {
     display: none !important;
   }
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
